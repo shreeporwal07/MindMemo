@@ -7,6 +7,7 @@ Mind Memo is a simple and intuitive note-making app that allows you to create, o
 ### Note Creation
 
 - **Create New Note:**
+
   - Implement a feature to create a new note with a title and body text.
   - Choose from a variety of colors to personalize your note cards.
 
@@ -20,10 +21,10 @@ Mind Memo is a simple and intuitive note-making app that allows you to create, o
 - **Display and Organize:**
   - Display a list of notes with their titles and a snippet of the body text for quick reference.
 
-
 ### View Full Note
 
 - **View and Edit:**
+
   - Provide an option to view the full note in a separate view or modal using the specific note ID.
 
   ![View Full Note](assets/details.jpeg)
@@ -31,11 +32,13 @@ Mind Memo is a simple and intuitive note-making app that allows you to create, o
 ### Edit and Delete
 
 - **Customize and Manage:**
+
   - Allow users to edit or delete their notes for easy customization.
 
   ![Edit and Delete](assets/edit.jpeg)
 
 - **Confirmation Prompts:**
+
   - Implement confirmation prompts for deleting notes to prevent accidental deletion.
 
   ![Confirmation Prompts](assets/delete.png)
@@ -44,6 +47,14 @@ Mind Memo is a simple and intuitive note-making app that allows you to create, o
 
 - **Redux Integration:**
   - Utilize Redux to manage the state of the notes, ensuring a centralized and efficient state management system.
+
+### Local Storage Integration
+
+- **Persistent Storage:**
+
+  - Save the notes in the browser's local storage so that they persist even after the browser is closed.
+
+![Local Storage Integration](assets/LocalStorage.png)
 
 ### Styling with Tailwind CSS
 
@@ -60,27 +71,31 @@ Mind Memo is a simple and intuitive note-making app that allows you to create, o
 Follow these steps to get started with Mind Memo:
 
 1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/mind-memo.git
-    ```
+
+   ```bash
+   git clone https://github.com/your-username/mind-memo.git
+   ```
 
 2. **Navigate to the project directory:**
-    ```bash
-    cd mind-memo
-    ```
+
+   ```bash
+   cd mind-memo
+   ```
 
 3. **Install dependencies:**
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 4. **Run the app:**
-    ```bash
-    npm start
-    ```
+
+   ```bash
+   npm start
+   ```
 
 5. **Open your browser and visit [http://localhost:3000](http://localhost:3000):**
-    - The app should now be running locally.
+   - The app should now be running locally.
 
 ## Technologies Used
 
