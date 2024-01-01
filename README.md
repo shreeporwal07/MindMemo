@@ -54,7 +54,7 @@ Mind Memo is a simple and intuitive note-making app that allows you to create, o
 
   - Save the notes in the browser's local storage so that they persist even after the browser is closed.
 
-![Local Storage Integration](assets/LocalStorage.png)
+![Local Storage Integration](assets/store.png)
 
 ### Styling with Tailwind CSS
 
