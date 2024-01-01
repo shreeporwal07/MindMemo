@@ -31,14 +31,14 @@ const NoteView = () => {
   return (
     <div className="max-w-screen-md mx-auto p-5 bg-white shadow-md rounded-md">
       <IoIosArrowBack className="text-4xl mb-5" onClick={handleGoBack} />
-      <div className="mb-4">
-        <h2 className="text-4xl font-bold mb-2 text-blue-900">Title:</h2>
+      <div className="mb-4 flex">
+        <h2 className="text-4xl font-bold mb-2 text-blue-900 mx-4">Title: </h2>
         <h4 className="text-4xl font-bold">{note.title}</h4>
       </div>
       <div className="mb-5">
-        <h2 className="text-4xl font-bold mb-2 text-blue-900">Body:</h2>
+        <h2 className="text-4xl font-bold mb-2 text-blue-900 mx-4">Body:</h2>
         <div
-          className="text-xl"
+          className="text-xl mx-4"
           contentEditable="true"
           dangerouslySetInnerHTML={{ __html: note.body }}
         />
@@ -46,7 +46,7 @@ const NoteView = () => {
       <div className="flex space-x-4">
         <button
           onClick={() => handleEdit(note.id)}
-          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none"
+          className="bg-blue-500 mx-4 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none"
         >
           Edit
         </button>
